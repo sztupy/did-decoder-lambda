@@ -1,0 +1,19 @@
+{
+  "name": "did-decoder-lambda",
+  "version": "1.0.0",
+  "description": "DID Decoder Lambda",
+  "private": true,
+  "scripts": {
+    "build": "echo 'DONE'",
+    "start": "npm --workspace server start"
+  },
+  "author": "Zsolt Sz. Sz. Raven <zsolt@raven.scot>",
+  "license": "Apache-2.0",
+  "workspaces": [
+    "server"
+  ],
+  "engines": {
+    "node": ">=20.6",
+    "npm": ">=10"
+  }
+}
