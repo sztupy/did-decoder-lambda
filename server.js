@@ -18,4 +18,4 @@ server.on("listening", () => {
 
 process.on("SIGTERM", () => server.close());
 
-() => server.listen(port);
+await server.listen(port);
