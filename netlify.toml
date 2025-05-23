@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
 [functions]
-  directory = "server/functions"
+  directory = "functions"
   external_node_modules = ["express"]
   node_bundler = "esbuild"
   included_files = []
